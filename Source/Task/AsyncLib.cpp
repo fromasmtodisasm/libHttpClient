@@ -403,7 +403,7 @@ static void SignalCompletion(_In_ AsyncStateRef const& state)
         }
         else
         {
-            FAIL_FAST_MSG("Failed to submit competion callback: 0x%08x", hr);
+            //FAIL_FAST_MSG("Failed to submit competion callback: 0x%08x", hr);
         }
     }
     else
